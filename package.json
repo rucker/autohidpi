@@ -10,7 +10,7 @@
     "name": "mode",
     "type": "radio",
     "title": "Mode",
-    "value": "width",
+    "value": "minWidth",
     "options": [{
       "name": "minimumScreenWidthMode",
       "type": "string",
