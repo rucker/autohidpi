@@ -12,15 +12,15 @@
     "title": "Mode",
     "value": "width",
     "options": [{
-      "name": "screenWidthMode",
+      "name": "minimumScreenWidthMode",
       "type": "string",
-      "value": "screenWidthMode",
+      "value": "minWidth",
       "label": "Minimum Screen Width Mode"
     },
     {
       "name": "exactScreenSizeMode",
       "type": "string",
-      "value": "exactScreenSizeMode",
+      "value": "exactSize",
       "label": "Exact Screen Size Mode"
     }]
   },
