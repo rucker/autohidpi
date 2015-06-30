@@ -34,7 +34,7 @@
   {
     "name": "exactScreenSize",
     "title": "HiDPI Screen Size (WidthxHeight)",
-    "description": "HiDPI mode is enabled when active screen width is exactly this widthxheight.",
+    "description": "HiDPI mode is enabled when active screen width is exactly this width x height.",
     "type": "string",
     "value": "1920x1080"
   },
