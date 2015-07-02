@@ -32,9 +32,4 @@ exports["test when mode is exact screen size " +
   assert.equal(preferences.get('layout.css.devPixelsPerPx'), '1');
 };
 
-exports["test main async"] = function(assert, done) {
-  assert.pass("async Unit test running!");
-  done();
-};
-
 require("sdk/test").run(exports);
