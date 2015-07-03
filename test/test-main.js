@@ -18,17 +18,17 @@ exports["test when mode is min screen width " +
 };
 
 exports["test when user sets pixel ratio 1.2 " +
-        "and mode is exact screen size " +
-        "and screen matches specified screen size " +
+        "and mode is exact screen resolution " +
+        "and screen matches specified screen resolution " +
         "then devPixelsPerPx is set to 1.2"] = function(assert) {
-  main.setDevPixelsPerPx(main.setExactScreenSizeMode('1920', '1080', '1.2'));
+  main.setDevPixelsPerPx(main.setExactScreenResolutionMode('1920', '1080', '1.2'));
   assert.equal(preferences.get('layout.css.devPixelsPerPx'), '1.2');
 };
 
-exports["test when mode is exact screen size " +
-        "and screen does not match specified size " +
+exports["test when mode is exact screen resolution " +
+        "and screen does not match specified resolution " +
         "then devPixelsPerPx is set to 1"] = function(assert) {
-  main.setDevPixelsPerPx(main.setExactScreenSizeMode('1920', '1200', '1.2'));
+  main.setDevPixelsPerPx(main.setExactScreenResolutionMode('1920', '1200', '1.2'));
   assert.equal(preferences.get('layout.css.devPixelsPerPx'), '1');
 };
 

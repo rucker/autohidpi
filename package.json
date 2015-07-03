@@ -18,10 +18,10 @@
       "label": "Minimum Screen Width Mode"
     },
     {
-      "name": "exactScreenSizeMode",
+      "name": "exactScreenResolutionMode",
       "type": "string",
-      "value": "exactSize",
-      "label": "Exact Screen Size Mode"
+      "value": "exactResolution",
+      "label": "Exact Screen Resolution Mode"
     }]
   },
   {
@@ -32,8 +32,8 @@
     "value": 2880
   },
   {
-    "name": "exactScreenSize",
-    "title": "HiDPI Screen Size (WidthxHeight)",
+    "name": "exactScreenResolution",
+    "title": "HiDPI Screen Resolution (WidthxHeight)",
     "description": "HiDPI mode is enabled when active screen width is exactly this width x height.",
     "type": "string",
     "value": "1920x1080"
